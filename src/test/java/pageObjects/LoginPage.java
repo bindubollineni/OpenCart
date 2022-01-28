@@ -27,6 +27,11 @@ public class LoginPage {
 
 	@FindBy(xpath="//*[@id=\"logo\"]/h1/a")
 	WebElement title_Login;
+	
+	@FindBy(xpath="//div[@class='form-group']//a[normalize-space()='Forgotten Password']")
+	WebElement btn_ForgotPwd;
+	
+	
 
 	//Action Methods
 
@@ -66,6 +71,11 @@ public class LoginPage {
 		{
 			return false;
 		}
+	}
+	
+	public void click_ForgotPwd()
+	{
+		btn_ForgotPwd.click();
 	}
 
 }

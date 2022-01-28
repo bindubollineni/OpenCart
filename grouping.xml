@@ -18,7 +18,8 @@
 		<classes>
 			<class name="testCases.TC_001_AccountRegistration" />
 			<class name="testCases.TC_002_Login" />
-			<class name="testCases.TC_LG_003" />
+			<class name="testCases.TC_LG_003" />   
+			<class name="testCases.TC_FP_004" />
 
 			<!-- <class name="testCases.TC_003_LoginDDT"/> -->
 		</classes>
