@@ -25,6 +25,9 @@ public class LoginPage {
 	@FindBy(xpath="//h2[normalize-space()='My Account']")
 	WebElement msgHeading;
 
+	@FindBy(xpath="//*[@id=\"logo\"]/h1/a")
+	WebElement title_Login;
+
 	//Action Methods
 
 	public void setEmailId(String em)
@@ -46,6 +49,18 @@ public class LoginPage {
 		try
 		{
 			return (msgHeading.isDisplayed());
+		}
+		catch(Exception e)
+		{
+			return false;
+		}
+	}
+
+	public boolean validateTitle()
+	{
+		try
+		{
+			return (title_Login.isDisplayed());
 		}
 		catch(Exception e)
 		{
