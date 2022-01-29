@@ -23,6 +23,9 @@ public class SearchPage {
 	@FindBy(xpath="//select[@id='input-limit']/option")
 	List <WebElement> drpdown;
 
+	@FindBy(xpath="//img[@title='MacBook']")
+	WebElement click_Product;
+
 	public int noOfSearchItemsDisplayed()
 	{
 		int count = search_Items.size();
@@ -60,9 +63,27 @@ public class SearchPage {
 		}
 		return select_Drp;
 	}
+	public void  clickProductDisplayed()
+	{
+		for(WebElement si : search_Items)
+		{
+			if(si.getText().equals("MacBook"))
+			{
+				si.click();
+				break;
+			}
+		}
 
+	}
+	
+	public void click_ProductToCompare()
+	{
+		click_Product.click();
+	}
 
 }
+
+
 
 
 

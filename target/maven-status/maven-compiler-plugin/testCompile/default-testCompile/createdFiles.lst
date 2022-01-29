@@ -4,11 +4,14 @@ pageObjects/SearchPage.class
 pageObjects/LoginPage.class
 testCases/TC_LG_003.class
 pageObjects/MyAccountPage.class
+pageObjects/Product_DisplayPage.class
 utilities/ExtentReportManager.class
 testBase/BaseClass.class
 testCases/TC_FP_004.class
+pageObjects/Product_Compare.class
 pageObjects/LogoutPage.class
 pageObjects/HomePage.class
+testCases/TC_PC_001.class
 testCases/TC_SF_015.class
 testCases/TC_001_AccountRegistration.class
 testCases/TC_003_LoginDDT.class

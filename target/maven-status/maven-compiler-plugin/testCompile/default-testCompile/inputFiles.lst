@@ -2,8 +2,10 @@
 /Users/bindu/eclipse/Selenium_Jan2022/Maven_Projects/src/test/java/testCases/TC_LG_003.java
 /Users/bindu/eclipse/Selenium_Jan2022/Maven_Projects/src/test/java/testCases/TC_SF_015.java
 /Users/bindu/eclipse/Selenium_Jan2022/Maven_Projects/src/test/java/testCases/TC_FP_004.java
+/Users/bindu/eclipse/Selenium_Jan2022/Maven_Projects/src/test/java/pageObjects/Product_Compare.java
 /Users/bindu/eclipse/Selenium_Jan2022/Maven_Projects/src/test/java/pageObjects/LogoutPage.java
 /Users/bindu/eclipse/Selenium_Jan2022/Maven_Projects/src/test/java/utilities/ExtentReportManager.java
+/Users/bindu/eclipse/Selenium_Jan2022/Maven_Projects/src/test/java/testCases/TC_PC_001.java
 /Users/bindu/eclipse/Selenium_Jan2022/Maven_Projects/src/test/java/testCases/TC_002_Login.java
 /Users/bindu/eclipse/Selenium_Jan2022/Maven_Projects/src/test/java/pageObjects/LoginPage.java
 /Users/bindu/eclipse/Selenium_Jan2022/Maven_Projects/src/test/java/testBase/BaseClass.java
@@ -14,3 +16,4 @@
 /Users/bindu/eclipse/Selenium_Jan2022/Maven_Projects/src/test/java/pageObjects/AccountRegistrationPage.java
 /Users/bindu/eclipse/Selenium_Jan2022/Maven_Projects/src/test/java/pageObjects/SearchPage.java
 /Users/bindu/eclipse/Selenium_Jan2022/Maven_Projects/src/test/java/testCases/TC_001_AccountRegistration.java
+/Users/bindu/eclipse/Selenium_Jan2022/Maven_Projects/src/test/java/pageObjects/Product_DisplayPage.java

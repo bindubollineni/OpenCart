@@ -12,13 +12,13 @@
       </run>
     </groups>
     <classes>
-      <class name="testCases.TC_FP_004">
+      <class name="testCases.TC_PC_001">
         <methods>
           <include name="setup"/>
-          <include name="TC_FP_004"/>
           <include name="tearDown"/>
+          <include name="TC_PC_001"/>
         </methods>
-      </class> <!-- testCases.TC_FP_004 -->
+      </class> <!-- testCases.TC_PC_001 -->
     </classes>
   </test> <!-- OpenCart Tests(failed) -->
 </suite> <!-- Failed suite [OpenCart Test Suite] -->
