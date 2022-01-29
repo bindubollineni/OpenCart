@@ -1,5 +1,6 @@
 testCases/TC_002_Login.class
 pageObjects/ForgotPasswordPage.class
+pageObjects/SearchPage.class
 pageObjects/LoginPage.class
 testCases/TC_LG_003.class
 pageObjects/MyAccountPage.class
@@ -8,6 +9,7 @@ testBase/BaseClass.class
 testCases/TC_FP_004.class
 pageObjects/LogoutPage.class
 pageObjects/HomePage.class
+testCases/TC_SF_015.class
 testCases/TC_001_AccountRegistration.class
 testCases/TC_003_LoginDDT.class
 utilities/XLUtility.class
