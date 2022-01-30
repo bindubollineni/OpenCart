@@ -17,6 +17,9 @@ public class Product_Compare {
 
 	@FindBy(xpath="//a[normalize-space()='product comparison']")
 	WebElement link_ProductComparision;
+	
+	@FindBy(xpath="//div[@class='alert alert-success alert-dismissible']")
+	WebElement txt_ProductComparision;
 
 	public boolean click_ProductComparisionlink()
 	{
@@ -32,5 +35,12 @@ public class Product_Compare {
 		}
 		return status;
 	}
+	
+	public String ConfirmationMsgProductComparision()
+	{
+		 return txt_ProductComparision.getText();
+	}
+	
+	
 
 }
