@@ -25,7 +25,25 @@ public class SearchPage {
 
 	@FindBy(xpath="//img[@title='MacBook']")
 	WebElement click_Product;
+	
+	@FindBy(xpath="//span[normalize-space()='Add to Cart']")
+	WebElement click_AddToCart;
+	
+	
+	@FindBy(xpath="//span[@id='cart-total']//i[@class='fa fa-shopping-cart']")
+	WebElement click_Cart_Total;
 
+	//td[@class='text-left']//a[contains(text(),'iMac')]
+	@FindBy(xpath="//td[@class='text-left']//a")
+	WebElement click_productName;
+	
+	//img[@title='Apple Cinema 30"']
+	@FindBy(xpath="//img[@title='Apple Cinema 30\"']")
+	WebElement click_AppleCinema_img;
+	
+	
+	
+	
 	public int noOfSearchItemsDisplayed()
 	{
 		int count = search_Items.size();
@@ -80,7 +98,24 @@ public class SearchPage {
 	{
 		click_Product.click();
 	}
+	
+	public void click_Add_To_Cart()
+	{
+		click_AddToCart.click();
+	}
+	public void click_Cart_Total()
+	{
+		click_Cart_Total.click();
+	}
+	public void click_ProductName()
+	{
+		click_productName.click();
+	}
 
+	public void click_Product_AppleCinema_Img()
+	{
+		click_AppleCinema_img.click();
+	}
 }
 
 
