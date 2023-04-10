@@ -19,6 +19,8 @@ public class TC_001_AccountRegistration extends BaseClass{
 		/* Some times webElement may throw exceptions
 		 * better to write in try catch block
 		 */
+
+		logger.info("this is dummy Commit");
 		try 
 		{
 			logger.info("Starting TC_001_AccountRegistration");
