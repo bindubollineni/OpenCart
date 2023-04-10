@@ -11,6 +11,7 @@ public class TC_SF_015 extends BaseClass{
 
 	@Test (groups= {"master"})
 	public void TC_SF_015() {
+		logger.info("New Change for check out branch develop");
 
 		logger.info("TestCase TC_SF_015 started");
 
